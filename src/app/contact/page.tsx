@@ -1,6 +1,36 @@
+import { Meteors } from "@/components/ui/meteors"
 function page() {
   return (
-    <div>page</div>
+    <div className="container mx-auto pb-10 pt-10 text-center bg-cover mt-16">
+      <h1 className="text-3xl text-white font-bold mb-6">Contact Us</h1>
+      <div className="max-w-md mx-auto bg-black p-8 rounded-md shadow-xl border-2">
+        <div className="mb-4 flex items-center">
+          
+          <div>
+            <h3 className="text-xl font-bold text-start">Our Location</h3>
+            <p>654 Lajpat Nagar, Delhi, India</p>
+          </div>
+        </div>
+
+        <div className="mb-4 flex items-center">
+          
+          <div>
+            <h3 className="text-xl font-bold text-start">Email Us</h3>
+            <p>life.assist@gmail.com</p>
+          </div>
+        </div>
+
+        <div className="mb-4 flex items-center">
+          
+          <div>
+            <h3 className="text-xl font-bold text-start">Call Us</h3>
+            <p>+91 9560482174</p>
+          </div>
+        </div>
+      </div>
+      <Meteors number={20} />
+    </div>
+    
   )
 }
 
