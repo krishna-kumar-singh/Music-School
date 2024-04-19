@@ -17,7 +17,7 @@
         "description": "Start your musical journey with foundational piano skills taught by expert instructors.",
         "price": 109.99,
         "instructor": "Jane Smith",
-        "isFeatured": false,
+        "isFeatured": true,
         "image": "/courses/piano.jpg" 
       },
       {
@@ -37,7 +37,7 @@
         "description": "Master the drums with our comprehensive course covering all skill levels.",
         "price": 129.99,
         "instructor": "Mike Brown",
-        "isFeatured": false,
+        "isFeatured": true,
         "image": "/courses/drumming.jpg"
       },
       {
@@ -47,7 +47,7 @@
         "description": "Learn the art of jazz improvisation with this course designed for all levels.",
         "price": 139.99,
         "instructor": "Chris Davis",
-        "isFeatured": false,
+        "isFeatured": true,
         "image": "/courses/jazz.jpg"
       },
       {
@@ -87,7 +87,7 @@
         "description": "Explore the rich history of classical music from its origins to the present day.",
         "price": 179.99,
         "instructor": "Grace Lee",
-        "isFeatured": false,
+        "isFeatured": true,
         "image": "/courses/classical-music.jpg"
       },
       {
